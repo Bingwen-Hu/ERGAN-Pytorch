@@ -138,10 +138,10 @@ class ERGAN_Trainer(nn.Module):
         self.loss_gen_recon_res_b = self.recon_criterion(block_ba_real, block_b)
         self.loss_gen_recon_x_a_re = self.recon_criterion(
             x_a_recon[:,:, round(self.a * 92):round(self.a * 144), round(self.a *48):round(self.a * 172)],
-             x_a[:,:, round(self.a * 92):round(self.a * 144), round(self.a *48):round(self.a * 172)]) # meglass [88:146, 44:178]
+             x_a[:,:, round(self.a * 92):round(self.a * 144), round(self.a *48):round(self.a * 172)]) 
         self.loss_gen_recon_x_b_re = self.recon_criterion(
              x_b_recon[:,:, round(self.a * 92):round(self.a * 144), round(self.a *48):round(self.a * 172)],
-             x_b[:,:, round(self.a * 92):round(self.a * 144), round(self.a *48):round(self.a * 172)]) # celebA [92:144, 48:172]
+             x_b[:,:, round(self.a * 92):round(self.a * 144), round(self.a *48):round(self.a * 172)]) # both celebA and MeGlass: [92:144, 48:172]
         self.loss_gen_recon_x_a = self.recon_criterion(x_a_recon, x_a)
         self.loss_gen_recon_x_b = self.recon_criterion(x_b_recon, x_b)
 
