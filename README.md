@@ -75,11 +75,12 @@ The results are stored in results/celeba folder and results/meglass folder, resp
 ## Citation
 If you find ERGAN is useful in your research, please consider citing:
 ```
-@article{hu2019unsupervised,
-  title={Unsupervised Eyeglasses Removal in the Wild},
-  author={Hu, Bingwen and Yang, Wankou and Ren, Mingwu},
-  journal={arXiv preprint arXiv:1909.06989},
-  year={2019}
+@article{hu2020unsupervised,
+  title={Unsupervised eyeglasses removal in the wild},
+  author={Hu, Bingwen and Zheng, Zhedong and Liu, Ping and Yang, Wankou and Ren, Mingwu},
+  journal={IEEE Transactions on Cybernetics},
+  year={2020},
+  publisher={IEEE}
 }
 
 ```
