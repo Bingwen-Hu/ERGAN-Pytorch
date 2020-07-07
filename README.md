@@ -18,15 +18,21 @@ git clone https://github.com/Bingwen-Hu/ERGAN-Pytorch
 The folder is structured as follows:
 ```
 ├── ERGAN-Pytorch/
-│   ├── configs/                /* Files for configs  		
+│   ├── configs/                /* Files for configs  
+|   |    ├──  celeba.yaml
+|   |    ├──  meglass.yaml
 │   ├── models/                 /* Files for pretrained model    	
 │   ├── outputs/		/* Intermediate image outputs 		
-│   ├── datasets/celebA/
+│   ├── datasets/CelebA/
                  ├── trainA/	/* Training set: face images without glasses		
                  ├── trainB/	/* Training set: face images with glasses		
                  ├── testA/	/* Testing set: face images without glasses		
                  └── testB/	/* Testing set: face images with glasses		
-	
+│   ├── datasets/MeGlass/
+                 ├── trainA/	/* Training set: face images without glasses		
+                 ├── trainB/	/* Training set: face images with glasses		
+                 ├── testA/	/* Testing set: face images without glasses		
+                 └── testB/	/* Testing set: face images with glasses
 ```
 
 ## Dataset Preparation
