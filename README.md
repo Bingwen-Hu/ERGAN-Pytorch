@@ -36,11 +36,13 @@ The folder is structured as follows:
 ```
 
 ## Dataset Preparation
-Download the celebA Dataset [Here]( https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8 ).
+Download the celebA Dataset [Here]( https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8 ). Download the MeGlass Dataset [Here](https://drive.google.com/file/d/1V0c8p6MOlSFY5R-Hu9LxYZYLXd8B8j9q/view).
+
 We split the CelebA dataset into one subset with glasses and another without glasses, based on the annotated attributes.
 ```bash
 python celeba_glass.py
 ```
+
 Note to modify the dataset path to your own path.
 
 ## Train
@@ -86,6 +88,8 @@ If you find ERGAN useful in your research, please consider citing:
 1. [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 2. [UNIT](https://github.com/mingyuliutw/UNIT)
 3. [MUNIT](https://github.com/NVlabs/MUNIT)
-
+4. [LPIPS](https://github.com/richzhang/PerceptualSimilarity)
+5. [FID](https://github.com/bioinf-jku/TTUR)
+6. [MeGlass](https://github.com/cleardusk/MeGlass)
 ## Acknowledgments
 Our code is inspired by MUNIT.
