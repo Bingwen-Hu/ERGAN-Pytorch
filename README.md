@@ -45,17 +45,24 @@ python train.py --config configs/celeba.yaml
 Intermediate image outputs and model binary files are stored in outputs/celeba.
 
 ## Test
-First, download our pretrained models [Google Drive](https://drive.google.com/open?id=1tMq9U1Tmn76HBufw7Y3lcETuvHZ5R1PY) for the eyeglasses removal task and put them in models folder.
+First, download our pretrained models (CelebA [Link 1](https://drive.google.com/open?id=1tMq9U1Tmn76HBufw7Y3lcETuvHZ5R1PY)) (MeGlass [Link 2](https://drive.google.com/file/d/1-JTSIorL6yqZ2-i252wCkD4pitWhF3l_/view?usp=sharing)) for the eyeglasses removal task and put them in models folder.
+
+for CelebA:
 ```bash
 python test_batch.py --config configs/celeba.yaml --A input_path_A --B input_path_B --output_folder results/celeba --checkpoint models/celeba.pt
 ```
+
+for MeGlass:
+```bash
+python test_batch.py --config configs/meglass.yaml --A input_path_A --B input_path_B --output_folder results/meglass --checkpoint models/meglasss.pt
+```
+
 `--A` The PATH of the test set (without glasses).
 
 `--B` The PATH of the test set (with glasses).
-The results are stored in results/celeba folder.
 
-### NOTE 
-The pre-trained model we provided was trained on the CelebA dataset. If you want to use the pre-trained model to process other data (such as LFW, Meglass), you need to adjust the size of the eye area according to the shape of the input image and then fine-tune the model to get better results.
+
+The results are stored in results/celeba folder and results/meglass folder, respectively.
 
 ## Citation
 If you find ERGAN useful in your research, please consider citing:
