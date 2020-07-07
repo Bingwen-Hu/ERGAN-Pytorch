@@ -73,7 +73,7 @@ python test_batch.py --config configs/meglass.yaml --A input_path_A --B input_pa
 The results are stored in results/celeba folder and results/meglass folder, respectively.
 
 ## Citation
-If you find ERGAN useful in your research, please consider citing:
+If you find ERGAN is useful in your research, please consider citing:
 ```
 @article{hu2019unsupervised,
   title={Unsupervised Eyeglasses Removal in the Wild},
