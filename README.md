@@ -29,10 +29,10 @@ The folder is structured as follows:
                  ├── testA/	/* Testing set: face images without glasses		
                  └── testB/	/* Testing set: face images with glasses		
 │   ├── datasets/MeGlass/
-                 ├── trainA/	/* Training set: face images without glasses		
-                 ├── trainB/	/* Training set: face images with glasses		
-                 ├── testA/	/* Testing set: face images without glasses		
-                 └── testB/	/* Testing set: face images with glasses
+│                ├── trainA/	/* Training set: face images without glasses		
+│                ├── trainB/	/* Training set: face images with glasses		
+│                ├── testA/	/* Testing set: face images without glasses		
+│                └── testB/	/* Testing set: face images with glasses
 ```
 
 ## Dataset Preparation
