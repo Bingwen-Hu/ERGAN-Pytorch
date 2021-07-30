@@ -53,7 +53,7 @@ python train.py --config configs/celeba.yaml
 Intermediate image outputs and model binary files are stored in outputs/celeba.
 
 ## Test
-First, download our pretrained models ([Google Drive](https://drive.google.com/file/d/1ap7qB6rkKjx5K2lrnzJ8eIHlpzW4fnh5/view?usp=sharing)) for the eyeglasses removal task and put them in models folder.
+First, download our pretrained models ([Google Drive](https://drive.google.com/file/d/1ap7qB6rkKjx5K2lrnzJ8eIHlpzW4fnh5/view?usp=sharing)) for the eyeglasses removal task and put them in models folder. If you want to test your own data with our pre-trained model, you need to align the data first ( refer to CelebA) or start training from scratch.
 
 for CelebA:
 ```bash
