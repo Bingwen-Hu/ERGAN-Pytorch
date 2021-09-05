@@ -1,5 +1,5 @@
 # Unsupervised Eyeglasses Removal in the Wild [[arXiv]](https://arxiv.org/abs/1909.06989)
-  By Bingwen Hu, Zhedong Zheng, Ping Liu, Wankou Yang and Mingwu Ren. 
+  By Bingwen Hu, Zhedong Zheng, Ping Liu, Wankou Yang and Mingwu Ren. TCYB 2020.
 
 ## Prerequisites
 - Python 3.6, Ubuntu 14.04
@@ -76,7 +76,7 @@ The results are stored in results/celeba folder and results/meglass folder, resp
 
 ## Citation
 If you find ERGAN is useful in your research, please consider citing:
-```
+```bibtex
 @article{hu2020unsupervised,
   title={Unsupervised eyeglasses removal in the wild},
   author={Hu, Bingwen and Zheng, Zhedong and Liu, Ping and Yang, Wankou and Ren, Mingwu},
@@ -84,7 +84,6 @@ If you find ERGAN is useful in your research, please consider citing:
   year={2020},
   publisher={IEEE}
 }
-
 ```
 
 ## Related Repos
@@ -94,5 +93,8 @@ If you find ERGAN is useful in your research, please consider citing:
 4. [LPIPS](https://github.com/richzhang/PerceptualSimilarity)
 5. [FID](https://github.com/bioinf-jku/TTUR)
 6. [MeGlass](https://github.com/cleardusk/MeGlass)
+7. [DG-Net](https://github.com/NVlabs/DG-Net)
+
+
 ## Acknowledgments
-Our code is inspired by MUNIT.
+Our code is inspired by MUNIT and DG-Net.
