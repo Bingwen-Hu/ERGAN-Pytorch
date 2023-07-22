@@ -2,7 +2,7 @@
 # !/usr/bin/env python3
 
 '''
-Divide face accordance CelebA Attr type.
+Divide face in accordance with CelebA Attr type.
 '''
 
 from __future__ import absolute_import
