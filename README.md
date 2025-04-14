@@ -1,5 +1,5 @@
 # Unsupervised Eyeglasses Removal in the Wild [[arXiv]](https://arxiv.org/abs/1909.06989)
-  By Bingwen Hu, Zhedong Zheng, Ping Liu, Wankou Yang and Mingwu Ren. TCYB 2020.
+  By Bingwen Hu, Zhedong Zheng, Ping Liu, Wankou Yang and Mingwu Ren. TCYB 2021.
 
 ## Prerequisites
 - Python 3.6, Ubuntu 14.04
