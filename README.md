@@ -43,7 +43,7 @@ We split the CelebA dataset into one subset with glasses and another without gla
 python celeba_glass.py
 ```
 
-Note to modify the dataset path to your own path.
+Note that you must modify the dataset path to your own path.
 
 ## Train
 Setup the yaml file. Check out configs/celeba.yaml for folder-based dataset organization. Change the data_root field to the path of your downloaded dataset.
@@ -72,17 +72,19 @@ python test_batch.py --config configs/meglass.yaml --A input_path_A --B input_pa
 `--B` The PATH of the test set (with glasses).
 
 
-The results are stored in results/celeba folder and results/meglass folder, respectively.
+The results are stored in the results/celeba folder and results/meglass folder, respectively.
 
 ## Citation
 If you find ERGAN is useful in your research, please consider citing:
 ```bibtex
-@article{hu2020unsupervised,
-  title={Unsupervised eyeglasses removal in the wild},
+@article{hu2021unsupervised,
+  title={Unsupervised Eyeglasses Removal in the Wild},
   author={Hu, Bingwen and Zheng, Zhedong and Liu, Ping and Yang, Wankou and Ren, Mingwu},
-  journal={IEEE Transactions on Cybernetics},
-  year={2020},
-  publisher={IEEE}
+  journal={IEEE transactions on cybernetics},
+  volume={51},
+  number={9},
+  pages={4373--4385},
+  year={2021}
 }
 ```
 
